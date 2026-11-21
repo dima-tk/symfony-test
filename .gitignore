@@ -9,4 +9,16 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
+# Docker
+# (обычно docker-compose.override.yml не коммитят, если он локальный)
+docker-compose.override.yml
+
+# IDE / OS
 .idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# Логи
+*.log
